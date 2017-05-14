@@ -2,95 +2,72 @@
 <html>
 
 <head>
-    <title>bs</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <div class="container">
-        <nav class="navbar  mt-2 border-top-5"> <span class="navbar-text"> Navbar text with an inline element </span></nav>
-    </div>
+    <!-- START INCLUDES -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" media="(max-width: 10000px)"  href="assets/css/style.css">
+    <link rel="stylesheet" media="(max-width: 768px)"  href="assets/css/ipad.css">
+    <link rel="stylesheet" media="(max-width: 375px)"  href="assets/css/iphone.css">
+    <!-- END INCLUDES -->
+    <title>JRP-home</title>
+    <!-- BEGIN NAVBAR -->
+    <section id="header" class="padbot-10 bg-white">
+        <section id="name" class="padleft-100">
+            <h1 class="padall-20 bg-teal c-white w-200 txt-center f-geo fs-26"><b> Jordan Peart </b></h1>
+        </section>
+        <section id="otherpages" class="txt-right padall-20 c-txt"><a href="index.html" class="f-geo nodec c-txt"> About</a> | <a href="portfolio.html" class="f-geo nodec c-txt"> Portfolio</a> | <a href="contact.html" class="f-geo nodec padright-100 c-txt">Contact</a>
+        </section>
+    </section>
+    <!-- small grey bar -->
+    <section class="bg-foot padbot-1"></section>
+    <!-- END NAVBAR -->
 </head>
 
 <body>
-    <div class="jumbotron">
-        <h1 class="display-3">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <div class="container">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <!-- BEGIN MIDSECTION padded top&bot 50 padded left 100-->
+    <section id="midsection" class="bgimg h-420 padtop-50 padbot-50 padleft-100">
+        <!--BEGIN "ABOUT ME" padded both sides 20 px -->
+        <section id="about" class="float-l brd-grey padleft-20 padtop-35 bg-white padright-20">
+            <h2 class="c-teal f-geo f-bold fs-20 txt-left"> About Me </h2>
+            <br/>
+            <!-- grey bar -->
+            <section class="bg-foot padtop-1 w-455"></section>
+            <!-- headshot -->
+            <img src="http://lorempixel.com/200/200/" alt="face" class="padtop-20 padright-20" align="left">
+            <!-- info -->
+            <p class="txt-left c-txt padtop-20 padright-20 padleft-5"> New York Time's person of the year 2006. </p>
+            <p class="txt-left c-txt padtop-20 padright-20 padleft-5">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p class="txt-left c-txt padright-20 padleft-5"> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
             </p>
-            <div class="container">
-                <div class="row bg-primary">
-                    <div class="col-md-3">1</div>
-                    <div class="col-md-3">2</div>
-                    <div class="col-md-3">3</div>
-                    <div class="col-md-3">4</div>
-                </div>
-                <div class="row bg-primary">
-                    <div class="col-md-3">1</div>
-                    <div class="col-md-3">2</div>
-                    <div class="col-md-3">3</div>
-                    <div class="col-md-3">4</div>
-                </div>
-                <div class="row bg-primary">
-                    <div class=" sdfs col-md-3">1</div>
-                    <div class="col-md-3">2</div>
-                    <div class="col-md-3">3</div>
-                    <div class="col-md-3">4</div>
-                </div>
-                <div class="row bg-primary">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-3"></div>
-                    <div class="col-md-3"></div>
-                    <div class="col-md-3"></div>
-                </div>
-            </div>
+            <!-- END INFO -->
+        </section>
+        <!-- END "ABOUT ME"  -->
+        <!-- START CONTACT ME -->
+        <section id="contact" class="float-l clear-r brd-grey bg-white">
+            <h2 class="c-teal f-geo f-bold fs-20 txt-center padtop-20"> Contact Me </h2>
             <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <p> ay </p>
-        </div>
-    </div>
-    <div class="container">
-        <h2> HEADER </h2>
-        <div class="row">
-            <div class="col-md-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-            <div class="col-md-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-            <div class="col-md-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-            <div class="col-md-3"> </div>
-        </div>
-        <br/>
-        <div class="row">
-            <div class="col-md-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-            <div class="col-md-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-            <div class="col-md-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-            <div class="col-md-2"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-            <div class="col-md-2"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-            <div class="col-md-2"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-        </div>
-        <br/>
-        <div class="row">
-            <div class="col-md-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-            <div class="col-md-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
-            </div>
-        </div>	
-        <div class="container">
-			<!-- START FIRST ROW -->
-            <div class="row">
-                <div class="col-md-8">
-                    <h1>About Me</h1></div>
-                <div class="col=md-4">
-                    <div class="row bg-primary"> blah blah
-                        <div class="row"> blah blah</div>
-                    </div>
-                </div>
-            </div>
-            <!-- END FIRST ROW -->
-        </div>
+            <!-- grey bar -->
+            <section class="bg-foot padbot-1 margl-10 w-250"></section>
+            <!-- BEGIN ICONS -->
+            <section  class="margl-15 padtop-20">
+                <table cellspacing="10">
+                        <tr>
+                            <th> <a href="https://github.com/jpeart" target="_blank"><img src="assets/images/github.png"> </a></th>
+                            <th class="padleft-10"><a href="https://www.linkedin.com/in/jordan-peart-bab46ba7/"> <img src="assets/images/linkedin.png"> </a></th>
+                            <th class="padleft-10"> <a href="http://stackoverflow.com/users/7973395/jpeart?tab=profile"><img src="assets/images/stackoverflow.png"></a> </th>
+                        </tr>
+                    </table>
+            </section>
+            <!-- END ICONS -->
+        </section>
+        <!-- END CONTACT ME -->
+    </section>
+    <!-- END MIDSECTION -->
 </body>
+<footer>
+    <!-- small teal bar -->
+    <section class="bg-teal padtop-2"></section>
+    <section id="foot" class="bg-foot padall-20 txt-center fs-8 f-geo c-white"> Not actually copyrighted lol </section>
+</footer>
 
 </html>
